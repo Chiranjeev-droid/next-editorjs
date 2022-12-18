@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from 'react';
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
@@ -29,7 +30,7 @@ export default function EditorPage() {
     <div className="container">
       <Head>
         <title>EditorJs</title>
-        <link rel="icon" href="/favicon.ico" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <main>

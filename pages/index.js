@@ -6,7 +6,7 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <main>
@@ -20,14 +20,9 @@ export default function Home() {
 
         <div className="grid">
           <Link href="/editor">
-            <a
-              className="card"
-            >
-              <h3>Editor &rarr;</h3>
-              <p>
+
                 EditorJS page - proof of concept for rich text editor for React.
-              </p>
-            </a>
+           
           </Link>
           
           <a href="https://nextjs.org/docs" className="card">
