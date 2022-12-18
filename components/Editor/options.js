@@ -1,7 +1,10 @@
 // Editor options
 export const options = {
-  placeholder: 'Enter for new paragraph',
+  placeholder: 'Enter for new paragrap',
   autofocus: true,
+  // readOnly: true,
+  
+  
 
   /**
    * onReady callback
